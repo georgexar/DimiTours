@@ -1,0 +1,14 @@
+.carousel {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.progress {
+    max-width: 300px;
+    border-radius: 30px;
+    background-color: var(--default-border-color);
+}

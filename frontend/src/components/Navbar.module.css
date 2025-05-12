@@ -1,0 +1,30 @@
+.nav {
+    width: 100%;
+    padding: 10px 0;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 40px 10px;
+    background-color: var(--primary-color);
+    position: fixed;
+    z-index: 1999;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
