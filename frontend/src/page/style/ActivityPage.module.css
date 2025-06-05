@@ -1,0 +1,153 @@
+.container {
+
+    margin-top: 125px;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section {
+    width: 90%;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.section img {
+    width: 70%;
+    height: 600px;
+    border-radius: 7px;
+}
+
+.headings {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid var(--default-border-color);
+    padding: 10px;
+}
+
+.headings a {
+    color: var(--gray-color);
+    font-style: italic;
+}
+
+.text {
+    margin-top: 40px;
+    min-height: 600px;
+    padding: 10px;
+    line-height: 1.75rem;
+}
+
+.questions {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    gap: 3rem;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 7px;
+    border: 1px solid var(--default-border-color);
+    gap: 2rem;
+}
+
+.questionText {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.questionText span {
+    font-size: 21px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0.35rem;
+}
+
+.options label {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.recommend {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100px;
+    text-align: left;
+    background-color: var(--default-border-color);
+    border-radius: 7px;
+    padding: 10px;
+    gap: 1.25rem;
+}
+
+.recommendSections {
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.recommend p {
+    font-size: 22px;
+}
+
+.recommendedText {
+    width: 100%;
+}
+
+@media (max-width: 400px) {
+    .section img {
+        width: 90%;
+        height: unset;
+    }
+
+    .options input {
+        min-width: 30px;
+        min-height: 30px;
+    }
+}
+
